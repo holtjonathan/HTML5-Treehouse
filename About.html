@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <metal charset="utf-8">
+  <title>About - Joe's Pizza Co.</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<!-- Page Container -->
+<div id="container">
+  <!-- Main Content -->
+  <div>
+    <!-- Page Text -->
+    <section id="page-text">
+      <h1>About Joe's Pizza Co.</h1>
+      
+      <div id="video">
+      <video id="myVideo" width="400" height="225" poster="poster.png" onclick="this.paused ? this.play() : this.pause()">
+        <source src="videos/mikethefrog.webm" type="video/webm">
+        <source src="videos/mikethefrog.ogv" type="video/ogv">
+        <source src="videos/mikethefrog.mp4" type="video/mp4">
+          <p>
+            Your browser doesn't support HTML5 video. <a href="videos/mikethefrog.mp4">Download</a> the video here instead.
+          </p>
+      </video>
+      <!-- Video Controls -->
+      <div id="video-controls">
+        <button type="button" id="playBtn">Play</button>
+        <button type="button" id="pauseBtn">Pause</button>
+      </div>
+
+
+     
+  </div>
+
+</div>
+<script src="video.js"></script>
+</body>
+</html>
